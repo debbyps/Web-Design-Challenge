@@ -5,6 +5,10 @@
     font-weight: 800;
     color: #fff;
   }
+
+  img{
+    width: 100%
+  }
   
   .skyblue {
     background: black;
