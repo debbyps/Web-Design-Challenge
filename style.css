@@ -2,22 +2,28 @@ body {
   background:whitesmoke
 }
 .box {
-    min-height: 50px;
-    padding: 5px;
-    margin: 5px;
+    min-height: 10px;
+    padding: 0px;
+    padding-right: 0px;
+    margin: 0px;
     font-weight: 800;
     color: #270a55;
   }
 
-  img{
+img{
     width: 100%
   }
+p{
+  text-align: left;
+  font-weight: normal;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
-  .white {
+.white {
     background:white;
   }
 
-  .navbar {
+.navbar {
     padding: 2px;
     background:white;
   }
@@ -32,8 +38,13 @@ body {
   background: #fff;
   border-radius: 3px;
 }
+h2{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
 h6{
   text-align: center;
+  font-weight: bold;
 }
 /* Getting rid of the default link styles here */
 .navbar li a {
@@ -47,6 +58,7 @@ nav#large {
 
 nav#small {
   display: none;
+  
 }
 /* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 580 pixels */
 @media (max-width: 600px) {
