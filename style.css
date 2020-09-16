@@ -32,6 +32,9 @@ body {
   background: #fff;
   border-radius: 3px;
 }
+h6{
+  text-align: center;
+}
 /* Getting rid of the default link styles here */
 .navbar li a {
   color: #000;
