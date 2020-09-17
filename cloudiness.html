@@ -16,11 +16,18 @@
   <div class="container">
     <nav id="large" class="navbar">
       <ul>
-        <li>
-            <a href="index.html">Latitude</a>
-          </li>
-        <li>
-          <a href="#">Plots</a>
+      <li>
+      <a  href="index.html">Home Page</a>
+      </li>
+        <li> 
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="temp.html">Temperature</a>
+            <a class="dropdown-item" href="humidity.html">Humidity</a>
+            <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+            <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+          </div>
         </li>
         <li>
           <a href="comparisons.html">Comparison</a>
@@ -31,12 +38,27 @@
       </ul>
     </nav>
     <nav id="small">
-      <select id="nav-select">
-        <option value="Latitude">Latitude</option>
-        <option value="plots">Plots</option>
-        <option value="comparison">Comparison</option>
-        <option value="data">Data</option>
-      </select>
+      <ul>
+        <li>
+          <a  href="index.html">Home Page</a>
+        </li>
+        <li>
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Options</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="comparisons.html">Comparison</a>
+            <a class="dropdown-item" href="data.html">Data</a>
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots
+            </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="temp.html">Temperature</a>
+            <a class="dropdown-item" href="humidity.html">Humidity</a>
+            <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+            <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+          </div>
+          </div>
+        </li>
+      </ul>
     </nav>
     <div class="container">
         <!--Normally these medium columns go full wide on small screen sizes-->
