@@ -1,5 +1,6 @@
 body {
-  background:whitesmoke
+  background:whitesmoke;
+  font-family: 'Times New Roman';
 }
 .box {
     min-height: 10px;
@@ -16,7 +17,6 @@ img{
 p{
   text-align: left;
   font-weight: normal;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .white {
@@ -39,13 +39,14 @@ p{
   border-radius: 3px;
 }
 h2{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
   font-size: 1.5rem;
+  color: turquoise;
 }
 h6{
   text-align: center;
   font-weight: bold;
+  color: turquoise;
 }
 /* Getting rid of the default link styles here */
 .navbar li a {
@@ -59,7 +60,8 @@ nav#large {
 
 nav#small {
   display: none;
-  
+  background-color: turquoise;
+  color: white;
 }
 /* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 580 pixels */
 @media (max-width: 600px) {
